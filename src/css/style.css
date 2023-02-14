@@ -1,0 +1,25 @@
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 25%;
+  margin: 0 auto;
+}
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-style: double;
+  background: bisque;
+}
+.lbl {
+  padding: 5px 0;
+  border-bottom: 1px solid black;
+}
+
+.lbl-pd {
+  margin-top: 5px;
+}
